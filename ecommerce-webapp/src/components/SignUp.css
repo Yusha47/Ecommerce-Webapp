@@ -1,0 +1,43 @@
+.signup-container {
+  background-color: #f4f4f4;
+}
+
+.signup-content {
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 10px;
+}
+
+.brand-name {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.signup-image {
+  background-image: url('/public/chair.png'); /* Use the image from your Figma design */
+  background-size: cover;
+  background-position: center;
+}
+
+.logo-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-text {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.signup-image h3, .signup-image p {
+  color: white;
+}
+
+.signup-form {
+  margin-bottom: 20px;
+}

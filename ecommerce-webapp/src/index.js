@@ -5,6 +5,8 @@ import App from './App';
 import { AuthProvider } from './AuthContext';
 import { ProductProvider } from './ProductContext';
 import { CartProvider } from './CartContext';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const container = document.getElementById('root'); // Get the root element
 const root = createRoot(container); // Create the root
