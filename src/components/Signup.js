@@ -87,7 +87,7 @@ const SignUp = () => {
                 required
               />
               <label className="form-check-label" htmlFor="terms">
-                I agree to the <a href="#">Terms & Policy</a>
+                I agree to the <a href="https://www.google.com/">Terms & Policy</a>
               </label>
             </div>
             <button type="submit" className="btn btn-dark w-100 mb-3">Signup</button>
