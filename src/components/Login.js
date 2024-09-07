@@ -55,7 +55,7 @@ const Login = () => {
                   I agree to the <a href="https://www.google.com/">Terms & Policy</a>
                 </label>
               </div>
-              <a href="#" className="forgot-password">Forgot Password</a>
+              <a href="https://www.google.com/" className="forgot-password">Forgot Password</a>
             </div>
             <button type="submit" className="btn btn-dark w-100 mb-3">Sign In</button>
           </form>
