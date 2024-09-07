@@ -22,9 +22,10 @@ const Store = () => {
   };
 
   const handleProfileClick = () => {
-    logout();
-    navigate('/signin'); // Navigate to login after logout
+    logout();  // Set isAuthenticated to false in AuthContext
+    navigate('/signin');  // Navigate to login page after logout
   };
+  
 
   const handleAddToCart = (product) => {
     addToCart(product);
