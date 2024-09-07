@@ -52,7 +52,7 @@ const Login = () => {
               <div className="form-check">
                 <input type="checkbox" className="form-check-input" id="terms" required />
                 <label className="form-check-label" htmlFor="terms">
-                  I agree to the <a href="#">Terms & Policy</a>
+                  I agree to the <a href="https://www.google.com/">Terms & Policy</a>
                 </label>
               </div>
               <a href="#" className="forgot-password">Forgot Password</a>
